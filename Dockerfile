@@ -1,6 +1,4 @@
 FROM node:latest
-RUN mkdir /ndschool
-WORKDIR /ndschool
 RUN npm install -g javascripting 
 RUN npm install -g learnyounode 
 RUN npm install -g how-to-npm
