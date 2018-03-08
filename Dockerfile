@@ -10,7 +10,7 @@ RUN npm install -g elementary-electron
 RUN npm install -g learnyouhtml
 #Electives
 RUN npm install -g functional-javascript-workshop
-RUN npm install -g levelmeup
+#RUN npm install -g levelmeup
 RUN npm install -g expressworks
 RUN npm install -g makemehapi
 RUN npm install -g promise-it-wont-hurt
@@ -25,7 +25,7 @@ RUN npm install -g count-to-6
 RUN npm install -g tower-of-babel
 RUN npm install -g learnyoumongo
 RUN npm install -g regex-adventure
-RUN npm install -g learn-sass
+#RUN npm install -g learn-sass
 RUN npm install -g pattern-lab-workshop
 RUN npm install -g learnyoubash
 RUN npm install -g currying-workshopper
@@ -33,7 +33,7 @@ RUN npm install -g bacon-love
 #RUN npm install -g innersourceadventure
 #RUN npm install -g shader-school
 RUN npm install -g bytewiser
-RUN npm install -g bug-clinic
+#RUN npm install -g bug-clinic
 #RUN npm install -g browserify-adventure
 #RUN npm install -g introtowebgl
 #RUN npm install -g kick-off-koa
