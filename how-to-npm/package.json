@@ -1,0 +1,13 @@
+{
+  "name": "@julian/how-to-npm",
+  "version": "1.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {},
+  "repository": "git@github.com:julianvargasalvarez/NodeSchool.git"
+}
