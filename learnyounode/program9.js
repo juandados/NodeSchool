@@ -6,15 +6,14 @@ for (address in addresses){
   http.get(addresses[address], function(response){
     response.setEncoding("utf-8");
     response.on("data", function(data){
-        responses[addresses[address]] = (responses[addresses[address]] || "") + data;
+        addr = "http://" + response.socket._httpMessage._header.match(/localhost:\d+/)[0]
+        responses[addr] = (responses[addr] || "") + data;
       });
     response.on("end", function(){
         completed_strems++;
-        console.log(Object.keys(responses))
         if (completed_strems == addresses.length){
-          for (address in addresses) {
-            //console.log(responses[addresses[address]])
-            //console.log("eeeeeeee")
+          for (addr in addresses){
+            console.log(responses[addresses[addr]])
           }
         }
       });
